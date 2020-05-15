@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img, video, iframe{
+	max-width: 100%;
+}
+.logo-section{
+	padding: 30px;
+}
+
+.nav-link:hover{
+   color:#FFAA02;
+}
+.design{
+	background-color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.services h2{
+	padding-top: 50px;
+}
+.services, team{
+	padding: 50px 0px;
+	background-color: #FBF5F3 !important;
+}	
+.testimonial{
+	background:url(../images/testimonial.jpg) no-repeat fixed;
+	background-size: cover;
+	height: 500px;  
+}
+.testimonial .container{
+	text-align: center;
+	color: #fff;
+
+}
+.testimonial h2{
+	padding-top: 15%;
+	font-size: 42px;
+}
+.team h2{
+	padding-top:50px; 
+}
+.team card{
+	background-color:transparent !important;
+	border:0; 
+}
+
+.highlights{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.blogs span{
+	color: red;
+}
+.blogs{
+	padding: 70px 0px;
+}
+.recent{
+	padding: 50px 0px;
+}
+.recent h3{
+	padding-bottom: 50px;
+}
+.clients{
+	padding-bottom: 50px;
+}
+.clients h2{
+	padding-bottom: 50px;
+}
+
+.footer{
+	background-color: #050609;
+	color: #fff;
+	padding: 30px 0;
+
+}
+
+@media (max-width: 768px){
+	.top_header{
+		text-align: center !important;
+	}
+
+	.top_header .text-right{
+		text-align: center !important;
+	}
+
+}		
